@@ -1,0 +1,73 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="900" fill="#050505"/>
+<g opacity="0.34" filter="url(#softShadow)">
+<path d="M-105 805C78 670 190 502 260 286C334 512 251 708 85 928L-105 805Z" fill="url(#leaf1)"/>
+<path d="M17 777C104 654 173 519 244 329" stroke="#242424" stroke-width="8" stroke-linecap="round"/>
+<path d="M42 742C92 718 134 675 170 612" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+<path d="M89 674C145 646 185 590 213 507" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+<path d="M125 583C178 547 211 486 230 398" stroke="#303030" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g opacity="0.28" filter="url(#softShadow)">
+<path d="M240 -95C448 70 560 254 624 490C421 389 300 212 196 -64L240 -95Z" fill="url(#leaf2)"/>
+<path d="M270 -45C382 103 486 260 595 455" stroke="#262626" stroke-width="8" stroke-linecap="round"/>
+<path d="M335 44C381 63 440 118 496 198" stroke="#323232" stroke-width="6" stroke-linecap="round"/>
+<path d="M394 133C448 159 505 227 553 322" stroke="#323232" stroke-width="6" stroke-linecap="round"/>
+<path d="M462 244C511 276 553 339 586 424" stroke="#323232" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g opacity="0.31" filter="url(#softShadow)">
+<path d="M520 932C613 646 764 445 992 314C963 596 803 798 562 998L520 932Z" fill="url(#leaf3)"/>
+<path d="M582 878C673 697 797 526 960 349" stroke="#252525" stroke-width="9" stroke-linecap="round"/>
+<path d="M642 760C717 740 797 681 879 582" stroke="#313131" stroke-width="6" stroke-linecap="round"/>
+<path d="M723 639C810 612 879 552 933 457" stroke="#313131" stroke-width="6" stroke-linecap="round"/>
+<path d="M804 537C864 515 916 470 960 399" stroke="#313131" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g opacity="0.36" filter="url(#softShadow)">
+<path d="M1535 -66C1424 181 1292 350 1077 499C1092 247 1247 72 1491 -112L1535 -66Z" fill="url(#leaf4)"/>
+<path d="M1482 -17C1397 127 1277 286 1116 461" stroke="#262626" stroke-width="9" stroke-linecap="round"/>
+<path d="M1424 78C1356 105 1292 162 1230 249" stroke="#333333" stroke-width="6" stroke-linecap="round"/>
+<path d="M1348 185C1279 212 1223 268 1180 351" stroke="#333333" stroke-width="6" stroke-linecap="round"/>
+<path d="M1260 300C1207 322 1167 365 1138 428" stroke="#333333" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g opacity="0.3" filter="url(#softShadow)">
+<path d="M1642 748C1435 725 1266 634 1096 464C1324 430 1505 507 1697 672L1642 748Z" fill="url(#leaf5)"/>
+<path d="M1589 711C1436 674 1280 601 1132 489" stroke="#252525" stroke-width="8" stroke-linecap="round"/>
+<path d="M1492 686C1436 651 1374 608 1307 555" stroke="#313131" stroke-width="6" stroke-linecap="round"/>
+<path d="M1385 633C1319 595 1259 548 1205 491" stroke="#313131" stroke-width="6" stroke-linecap="round"/>
+</g>
+<rect width="1600" height="900" fill="url(#vignette)"/>
+<defs>
+<filter id="softShadow" x="-180" y="-180" width="1960" height="1260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000000" flood-opacity="0.7"/>
+</filter>
+<linearGradient id="leaf1" x1="65" y1="244" x2="156" y2="884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1F1F1F"/>
+<stop offset="0.54" stop-color="#101010"/>
+<stop offset="1" stop-color="#050505"/>
+</linearGradient>
+<linearGradient id="leaf2" x1="216" y1="-70" x2="606" y2="469" gradientUnits="userSpaceOnUse">
+<stop stop-color="#222222"/>
+<stop offset="0.57" stop-color="#111111"/>
+<stop offset="1" stop-color="#050505"/>
+</linearGradient>
+<linearGradient id="leaf3" x1="984" y1="327" x2="556" y2="932" gradientUnits="userSpaceOnUse">
+<stop stop-color="#232323"/>
+<stop offset="0.53" stop-color="#111111"/>
+<stop offset="1" stop-color="#050505"/>
+</linearGradient>
+<linearGradient id="leaf4" x1="1515" y1="-71" x2="1106" y2="478" gradientUnits="userSpaceOnUse">
+<stop stop-color="#222222"/>
+<stop offset="0.52" stop-color="#111111"/>
+<stop offset="1" stop-color="#050505"/>
+</linearGradient>
+<linearGradient id="leaf5" x1="1715" y1="696" x2="1104" y2="481" gradientUnits="userSpaceOnUse">
+<stop stop-color="#202020"/>
+<stop offset="0.54" stop-color="#101010"/>
+<stop offset="1" stop-color="#050505"/>
+</linearGradient>
+<radialGradient id="vignette" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 450) rotate(90) scale(520 920)">
+<stop stop-color="#000000" stop-opacity="0"/>
+<stop offset="0.68" stop-color="#000000" stop-opacity="0.34"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.78"/>
+</radialGradient>
+</defs>
+</svg>
